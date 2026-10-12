@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+#pingpongtable{
+   width: 700px;
+    height: 400px;
+    border: solid black 2px;
+    position: relative;
+}
+
+#paddle{
+    width: 10px;
+    height: 75px;
+    background-color: blue;
+    margin-left: 2px;
+position: absolute;
+}
+#ball{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: red;
+    position: absolute;
+}
+h2{display: flex;
+    justify-content: center;
+    flex-direction: column;
+  color: red;
+    text-align: center;
+   margin-top: 15%; 
+
+}
+.restartbtn{
+    
+     display: block;
+    margin: 15px ;
+      padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dfe21a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
